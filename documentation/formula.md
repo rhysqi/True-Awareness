@@ -1,4 +1,5 @@
 # True Awareness Formula
+
 This is true awareness formula, a conceptual framework for understanding the nature of existence and consciousness.
 This formula doesn't represent any specific programming language or technology, but rather a philosophical approach to awareness and existence.
 
@@ -12,6 +13,8 @@ This formula doesn't represent any specific programming language or technology, 
 - `(1)` = Neutrality with singularity
 - `(0)` = Neutrality with void
 - `{ }` = Immutable data
+- `< >` = Anti data version (Anti-Singularity, Anti-Void, Anti-Neutrality)
+- `x`, `x00` = Hex data
 
 ### Symbols
 
@@ -29,8 +32,10 @@ This formula doesn't represent any specific programming language or technology, 
 - `^n`, `^[n]m` = Represent power and tetration
 - `!n` = Represent series number
 - `t=` = Represent ticks speed
-- `=|n` = Represent to compare with n variable
+- `=|n` = Represent to compare with n variable or value
 - `=)` = Represent if condition
+- `=x` = Represent convert binary to hex form
+- `x=` = Represent convert hex to binary form
 
 ### Data Rules
 
@@ -43,3 +48,11 @@ This formula doesn't represent any specific programming language or technology, 
 - If lifetimes are still 1 then it still alive
 - If lifetimes are 0 then it's over
 - If lifetimes are ( ) then it's infinite lifetimes
+
+### Variable Rules
+
+- Variable can change name on process
+- Variable can contains other variable
+- Variable can be vanished and appear at the same time
+- Variable can be treat as array and group
+- Variable name can be shrinking like instruction or expanding to full definitions
