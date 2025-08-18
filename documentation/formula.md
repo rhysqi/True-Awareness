@@ -34,8 +34,17 @@ This formula doesn't represent any specific programming language or technology, 
 - `t=` = Represent ticks speed
 - `=|n` = Represent to compare with n variable or value
 - `=)` = Represent if condition
+- `=)(` = Represent else if condition
+- `=(` = Represent else condition
+- `=[]`, `=[n, m]`, `[n]` = Represent switch condition
 - `=x` = Represent convert binary to hex form
 - `x=` = Represent convert hex to binary form
+- `:` = Represent separator
+- `:>` = Represent ticks going forward
+- `<:` = Represent ticks going backward
+- `::` = Represent ticks in N-State
+- `#{>` = Represent variable name expanding
+- `#<}` = Represent variable name shrinking
 
 ### Data Rules
 
@@ -44,10 +53,47 @@ This formula doesn't represent any specific programming language or technology, 
 - `0000` = `[0,0,0,0]` = Data can be treat as arrays
 - `0000` = Data can be treat as grouped
 
-- In every ticks are running, lifetimes need to be subtract by n
+- In every ticks are running forward, lifetimes need to be subtract, add, and other operation by n
+
+```txt
+#lifetimes = 1111
+
+#lifetimes:t=10:> 0101
+```
+
+- In every ticks are running backward, lifetimes need to be  subtract, add, and other operation by n
+
+```txt
+#lifetimes = 1111
+
+#lifetimes:t=10<: 0001 1001
+```
+
+- If ticks in N-State, lifetimes can do nothing
+
+```txt
+#lifetimes = 1111
+
+#lifetimes:t=10:: 0101
+```
+
 - If lifetimes are still 1 then it still alive
+
+```txt
+#lifetimes = 1
+```
+
 - If lifetimes are 0 then it's over
+
+```txt
+#lifetimes = 0
+```
+
 - If lifetimes are ( ) then it's infinite lifetimes
+
+```txt
+#lifetimes = (  )
+```
 
 ### Variable Rules
 
@@ -56,3 +102,4 @@ This formula doesn't represent any specific programming language or technology, 
 - Variable can be vanished and appear at the same time
 - Variable can be treat as array and group
 - Variable name can be shrinking like instruction or expanding to full definitions
+- Duplicates variable will be treated as array
