@@ -14,6 +14,9 @@ This formula doesn't represent any specific programming language or technology, 
 - `(0)` = Neutrality with void
 - `{ }` = Immutable data
 - `< >` = Anti data version (Anti-Singularity, Anti-Void, Anti-Neutrality)
+- `<1>` = Anti-Singularity
+- `<0>` = Anti-Void
+- `<(  )>`, `<?>` = Anti-Neutrality
 - `x`, `x00` = Hex data
 
 ### Symbols
