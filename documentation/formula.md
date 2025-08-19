@@ -48,6 +48,7 @@ This formula doesn't represent any specific programming language or technology, 
 - `::` = Represent ticks in N-State
 - `#{>` = Represent variable name expanding
 - `#<}` = Represent variable name shrinking
+- `#()` = Represent variable name can become Neutrality
 
 ### Data Rules
 
