@@ -21,31 +21,45 @@ This formula doesn't represent any specific programming language or technology, 
 
 ### Symbols
 
-- `#n` = Represent name of variable
+- [ ] Universal Symbols
 - `+-*/` = Basic arithmetic operations
+- `~` = Represent data need to be inverted
 - `^{ }` = Represent can change immutable data
 - `^{ }^` = Represent can change immutable data and mutable data both
-- `[n|x%]`, `[n|x,y]`, `[n|x/y]` = Represent probability of an event while on process occurs
-- `=(n)`, `(n)=` = Represent before and after `n` iteration
-- `~` = Represent data need to be reversed
 - `>`, `<`, `>=`, `=<` = Represent more, less, more equal, less equal
-- `^?n` = Represent to jump directly di `n` variable
-- `=>`, `<=` = Represent to do formula from left to right or right to left
-- `>>`, `<<` = Represent bitwise right and left
 - `^n`, `^[n]m` = Represent power and tetration
+- `=x` = Represent convert binary to hex form
+- `x=` = Represent convert hex to binary form
+- `>>`, `<<` = Represent bitwise right and left
+
+- [ ] Line Symbols
+- `=(n)`, `(n)=` = Represent before and after `n` iteration
+- `^?n` = Represent to jump directly di `n` variable
+- `_>` = Represent to make line flow downward
+- `_<` = Represent to make line flow upward
+- `_ ` = Represent to make line flow N-State
+
+- [ ] Specific Symbols
+- `:` = Represent separator
+- `=>`, `<=` = Represent to do formula from left to right or right to left
 - `!n` = Represent series number
-- `t=` = Represent ticks speed
-- `=|n` = Represent to compare with n variable or value
+
+- [ ] Conditional Symbols
 - `=)` = Represent if condition
 - `=)(` = Represent else if condition
 - `=(` = Represent else condition
-- `=[]`, `=[n, m]`, `[n]` = Represent switch condition
-- `=x` = Represent convert binary to hex form
-- `x=` = Represent convert hex to binary form
-- `:` = Represent separator
+- `=|n` = Represent to compare with n variable or value
+- `=[]`, `=[n, m]`, `[n]` = Represent switch
+- `[n|x%]`, `[n|x,y]`, `[n|x/y]` = Represent probability of an event while on process occurs
+
+- [ ] Tick Symbols
+- `t=` = Represent ticks speed
 - `:>` = Represent ticks going forward
 - `<:` = Represent ticks going backward
 - `::` = Represent ticks in N-State
+  
+- [ ] Variable Symbols
+- `#n` = Represent name of variable
 - `#{>` = Represent variable name expanding
 - `#<}` = Represent variable name shrinking
 - `#()` = Represent variable name can become Neutrality
