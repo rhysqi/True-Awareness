@@ -17,7 +17,8 @@ This formula doesn't represent any specific programming language or technology, 
 - `<1>` = Anti-Singularity
 - `<0>` = Anti-Void
 - `<(  )>`, `<?>` = Anti-Neutrality
-- `x`, `x00` = Hex data
+- `x`, `xf0` = Hex data
+- `"text"` = Text data
 
 ### Symbols
 
@@ -62,7 +63,7 @@ This formula doesn't represent any specific programming language or technology, 
 - `#n` = Represent name of variable
 - `#{>` = Represent variable name expanding
 - `#<}` = Represent variable name shrinking
-- `#()` = Represent variable name can become Neutrality
+- `#()` = Represent variable name can become Neutrality or Anything
 
 ### Data Rules
 
