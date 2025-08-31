@@ -16,7 +16,11 @@ This formula doesn't represent any specific programming language or technology, 
 - `< >` = Anti data version (Anti-Singularity, Anti-Void, Anti-Neutrality)
 - `<1>` = Anti-Singularity
 - `<0>` = Anti-Void
-- `<(  )>`, `<?>` = Anti-Neutrality
+- `<(  )>` = Anti-Neutrality
+- `   ` = Non data version (Non-Singularity, Non-Void, Non-Neutrality)
+- ` 1 ` = Non-Singularity
+- ` 0 ` = Non-Void
+- `   ` = Non-Neutrality
 - `x`, `xf0` = Hex data
 - `"text"` = Text data
 
