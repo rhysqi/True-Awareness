@@ -84,7 +84,6 @@ This formula doesn't represent any specific programming language or technology, 
 
 ```txt
 #lifetimes = 1111
-
 #lifetimes:t=10<: 0001 1001
 ```
 
@@ -92,7 +91,6 @@ This formula doesn't represent any specific programming language or technology, 
 
 ```txt
 #lifetimes = 1111
-
 #lifetimes:t=10:: 0101
 ```
 
