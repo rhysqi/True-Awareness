@@ -9,9 +9,9 @@ This formula doesn't represent any specific programming language or technology, 
 
 - `1` = Singularity
 - `0` = Void
-- `( )` = Neutrality
-- `(1)` = Neutrality with singularity
-- `(0)` = Neutrality with void
+- ` ` = Neutrality
+- `  1  ` = Neutrality with singularity
+- `  0  ` = Neutrality with void
 - `{ }` = Immutable data
 - `< >` = Anti data version (Anti-Singularity, Anti-Void, Anti-Neutrality)
 - `<1>` = Anti-Singularity
