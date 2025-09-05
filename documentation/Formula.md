@@ -10,8 +10,8 @@ This formula doesn't represent any specific programming language or technology, 
 - `1` = Singularity
 - `0` = Void
 - ` ` = Neutrality
-- ` 1	` = Neutrality with singularity
-- `	0	` = Neutrality with void
+- `  1	` = Neutrality with singularity
+- `	 0	` = Neutrality with void
 - `{ }` = Immutable data
 - `< >` = Anti data version (Anti-Singularity, Anti-Void, Anti-Neutrality)
 - `<1>` = Anti-Singularity
@@ -22,9 +22,38 @@ This formula doesn't represent any specific programming language or technology, 
 - `?0?` = Non-Void
 - `? ?` = Non-Neutrality
 - `x`, `xf0` = Hex data
-- `"text"` = Text data
+- `"text"` = Text data or comments
 
 ### Symbols
+
+- [ ] Conditional Symbols
+- `=)` = Represent if condition
+- `=)(` = Represent else if condition
+- `=(` = Represent else condition
+- `=|n` = Represent to compare with n variable or value
+- `=[]`, `=[n, m]`, `[n]` = Represent switch
+- `[n|x%]`, `[n|x,y]`, `[n|x/y]` = Represent probability of an event while on process occurs
+
+- [ ] Line Symbols
+- `=(n)`, `(n)=` = Represent before and after `n` iteration
+- `^?n` = Represent to jump directly di `n` variable
+- `_>` = Represent to make line flow downward
+- `_<` = Represent to make line flow upward
+- `_ ` = Represent to make line flow N-State
+
+- [ ] Specific Symbols
+- `;` = Represent separator
+- `=>` = Represent to do formula from left to right
+- `<=` = Represent to do formula from right to left
+- `=:=` = Represent to do formula in the N-States
+- `=n=` = Represent to go in 
+- `!n` = Represent series number
+
+- [ ] Tick Symbols
+- `t=` = Represent ticks speed
+- `:>` = Represent ticks going forward
+- `<:` = Represent ticks going backward
+- `::` = Represent ticks in N-State
 
 - [ ] Universal Symbols
 - `+-*/` = Basic arithmetic operations
@@ -36,39 +65,12 @@ This formula doesn't represent any specific programming language or technology, 
 - `=x` = Represent convert binary to hex form
 - `x=` = Represent convert hex to binary form
 - `>>`, `<<` = Represent bitwise right and left
-
-- [ ] Line Symbols
-- `=(n)`, `(n)=` = Represent before and after `n` iteration
-- `^?n` = Represent to jump directly di `n` variable
-- `_>` = Represent to make line flow downward
-- `_<` = Represent to make line flow upward
-- `_ ` = Represent to make line flow N-State
-
-- [ ] Specific Symbols
-- `;` = Represent separator
-- `=>`, `<=` = Represent to do formula from left to right or right to left
-- `=:=` = Represent to do formula in the N-States
-- `!n` = Represent series number
-
-- [ ] Conditional Symbols
-- `=)` = Represent if condition
-- `=)(` = Represent else if condition
-- `=(` = Represent else condition
-- `=|n` = Represent to compare with n variable or value
-- `=[]`, `=[n, m]`, `[n]` = Represent switch
-- `[n|x%]`, `[n|x,y]`, `[n|x/y]` = Represent probability of an event while on process occurs
-
-- [ ] Tick Symbols
-- `t=` = Represent ticks speed
-- `:>` = Represent ticks going forward
-- `<:` = Represent ticks going backward
-- `::` = Represent ticks in N-State
   
 - [ ] Variable Symbols
 - `#n` = Represent name of variable
 - `#{>` = Represent variable name expanding
 - `#<}` = Represent variable name shrinking
-- `#()` = Represent variable name can become Neutrality or Anything
+- `#()` / `#()=` = Represent variable name can become Neutrality or Anything
 
 ### Data Rules
 
@@ -80,40 +82,40 @@ This formula doesn't represent any specific programming language or technology, 
 - In every ticks are running forward, lifetimes need to be subtract, add, and other operation by n
 
 ```txt
-#lifetimes = 1111
-#lifetimes:t=10:> 0101
+#lifetimes=1111
+#lifetimes:t=10:>0101
 ```
 
 - In every ticks are running backward, lifetimes need to be  subtract, add, and other operation by n
 
 ```txt
-#lifetimes = 1111
-#lifetimes:t=10<: 0001 1001
+#lifetimes=1111
+#lifetimes:t=10<:00011001
 ```
 
 - If ticks in N-State, lifetimes can do nothing
 
 ```txt
-#lifetimes = 1111
-#lifetimes:t=10:: 0101
+#lifetimes=1111
+#lifetimes:t=10::0101
 ```
 
 - If lifetimes are still 1 then it still alive
 
 ```txt
-#lifetimes = 1
+#lifetimes=1
 ```
 
 - If lifetimes are 0 then it's over
 
 ```txt
-#lifetimes = 0
+#lifetimes=0
 ```
 
 - If lifetimes are ( ) then it's infinite lifetimes
 
 ```txt
-#lifetimes = (  )
+#lifetimes=( )
 ```
 
 ### Variable Rules
