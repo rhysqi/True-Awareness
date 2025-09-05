@@ -10,8 +10,8 @@ This formula doesn't represent any specific programming language or technology, 
 - `1` = Singularity
 - `0` = Void
 - ` ` = Neutrality
-- `  1  ` = Neutrality with singularity
-- `  0  ` = Neutrality with void
+- ` 1	` = Neutrality with singularity
+- `	0	` = Neutrality with void
 - `{ }` = Immutable data
 - `< >` = Anti data version (Anti-Singularity, Anti-Void, Anti-Neutrality)
 - `<1>` = Anti-Singularity
@@ -45,8 +45,9 @@ This formula doesn't represent any specific programming language or technology, 
 - `_ ` = Represent to make line flow N-State
 
 - [ ] Specific Symbols
-- `:` = Represent separator
+- `;` = Represent separator
 - `=>`, `<=` = Represent to do formula from left to right or right to left
+- `=:=` = Represent to do formula in the N-States
 - `!n` = Represent series number
 
 - [ ] Conditional Symbols
