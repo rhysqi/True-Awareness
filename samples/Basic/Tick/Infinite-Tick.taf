@@ -1,0 +1,10 @@
+"Infinite Tick examples"
+
+"Infinite Tick forward examples"
+#lifetimes= ;#<}lft;t=1;t-#lft:>;
+
+"Infinite Tick backward examples"
+#lifetimes= ;#<}lft;t=1;t-#lft<:;
+
+"Infinite Tick N-States examples"
+#lifetimes= ;#<}lft;t=1;t-#lft::;
