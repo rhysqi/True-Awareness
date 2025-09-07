@@ -68,8 +68,8 @@ This formula doesn't represent any specific programming language or technology, 
 - `\=T!` = Represent for formula can't splitting using thread
 - `\=P!` = Represent for formula can't splitting using process
 - `\:` = Represent for tick can splitting
-- `\T:` = Represent for tick can splitting using thread
-- `\P:` = Represent for tick can splitting using process
+- `\:T` = Represent for tick can splitting using thread
+- `\:P` = Represent for tick can splitting using process
 - `\:!` = Represent for tick can't splitting
 - `\:T!` = Represent for tick can't splitting using thread
 - `\:P!` = Represent for tick can't splitting using process
@@ -82,7 +82,9 @@ This formula doesn't represent any specific programming language or technology, 
 <br>
 
 - [ ] Universal Symbols
-- `+-*/` = Basic arithmetic operations
+- `+ - * /` = Origin arithmetic operations
+- `<+> <-> <*> </>` = Anti-Origin arithmetic operations
+- `?+? ?-? ?*? ?/?` = Non-Origin arithmetic operations
 - `~` = Represent data need to be inverted
 - `^{ }` = Represent can change immutable data
 - `^{ }^` = Represent can change immutable data and mutable data both
@@ -97,7 +99,7 @@ This formula doesn't represent any specific programming language or technology, 
 - `#n` = Represent name of variable
 - `#{>` = Represent variable name expanding
 - `#<}` = Represent variable name shrinking
-- `#	` / `# =` = Represent variable name can become Neutrality or Anything
+- `#  ` / `# =` = Represent variable name can become Neutrality or Anything
 <br>
 
 ### Data Rules
@@ -492,15 +494,15 @@ This formula doesn't represent any specific programming language or technology, 
 
   - Non-Origin with Non-Origin
 	```
-	?1? + ?1? = 
-	?1? - ?1? = 
-	?1? * ?1? = 
-	?1? / ?1? = 
+	?1? + ?1? = ?10?
+	?1? - ?1? = ?0?
+	?1? * ?1? = ?1?
+	?1? / ?1? = ?1?
 
-	?1? + ?0? = 
-	?1? - ?0? = 
-	?1? * ?0? = 
-	?1? / ?0? = 
+	?1? + ?0? = ?1?
+	?1? - ?0? = ?1?
+	?1? * ?0? = ?1?
+	?1? / ?0? = ? ?
 
 	?1? + ? ? = 
 	?1? - ? ? = 
