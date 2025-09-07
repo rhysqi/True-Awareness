@@ -26,20 +26,29 @@ This formula doesn't represent any specific programming language or technology, 
 
 ### Symbols
 
-- [ ] Conditional Symbols
+- [ ] Arrays, Groups, and Nested symbols
+- `[n]` = Represent data in arrays n
+- `[n[n[...]]]` = Represent data in arrays n in arrays n in arrays ...
+- `(n)` = Represent data in groups n
+<br>
+
+- [ ] Conditional and Loops Symbols
 - `=)` = Represent if condition
 - `=)(` = Represent else if condition
 - `=(` = Represent else condition
 - `=|n` = Represent to compare with n variable or value
 - `=[]`, `=[n, m]`, `[n]` = Represent switch
 - `[n|x%]`, `[n|x,y]`, `[n|x/y]` = Represent probability of an event while on process occurs
-
-- [ ] Line Symbols
+- `=(n)=` = Represent n loops iteration
 - `=(n)`, `(n)=` = Represent before and after `n` iteration
-- `^?n` = Represent to jump directly di `n` variable
+<br>
+
+- [ ] Column & Line Symbols
+- `_n` = Represent to jump directly di `n` variable
 - `_>` = Represent to make line flow downward
 - `_<` = Represent to make line flow upward
 - `_ ` = Represent to make line flow N-State
+<br>
 
 - [ ] Specific Symbols
 - `;` = Represent separator
@@ -48,12 +57,14 @@ This formula doesn't represent any specific programming language or technology, 
 - `=:=` = Represent to do formula in the N-States
 - `=n=` = Represent to go in 
 - `!n` = Represent series number
+<br>
 
 - [ ] Tick Symbols
 - `t=` = Represent ticks speed
 - `:>` = Represent ticks going forward
 - `<:` = Represent ticks going backward
 - `::` = Represent ticks in N-State
+<br>
 
 - [ ] Universal Symbols
 - `+-*/` = Basic arithmetic operations
@@ -65,14 +76,207 @@ This formula doesn't represent any specific programming language or technology, 
 - `=x` = Represent convert binary to hex form
 - `x=` = Represent convert hex to binary form
 - `>>`, `<<` = Represent bitwise right and left
-  
-- [ ] Variable Symbols
+<br>
+
+- [x] Variable Symbols
 - `#n` = Represent name of variable
 - `#{>` = Represent variable name expanding
 - `#<}` = Represent variable name shrinking
-- `#()` / `#()=` = Represent variable name can become Neutrality or Anything
+- `#	` / `# =` = Represent variable name can become Neutrality or Anything
+<br>
 
 ### Data Rules
+
+- Origin data are defined as Singularity, Void, Neutrality
+  ```
+  (1/0/ )
+  ```
+  Anti-Origin data are defined as Anti-Singularity, Anti-Void, Anti-Neutrality.<br> 
+  ```
+  <1> <0> < >
+  ```
+  Non-Origin data are defined as Non-Singularity, Non-Void, Non-Neutrality.<br> 
+  ```
+  ?1? ?0? ? ?
+  ```
+  #### Data Operation Ruleset
+  - Origin with Origin
+	```
+	1 + 1 = 10
+	1 - 1 = 0
+	1 * 1 = 1
+	1 / 1 = 1
+
+	1 + 0 = 1
+	1 - 0 = 1
+	1 * 0 = 1
+	1 / 0 = ( )
+
+	1 + ( ) = 1
+	1 - ( ) = <1>
+	1 * ( ) = 1( )
+	1 / ( ) = ( )1
+	```
+	<br>
+
+  - Origin with Anti-Origin
+	```
+	1 + <1> = 0
+	1 - <1> = 10
+	1 * <1> = 1<1>
+	1 / <1> = <1>1
+
+	1 + <0> = 10
+	1 - <0> = 0
+	1 * <0> = 1<1>
+	1 / <0> = <1>1
+
+	1 + < > = 1
+	1 - < > = ?<1>?
+	1 * < > = 1< >
+	1 / < > = < >1
+	```
+	```
+	0 + <0> = 1
+	0 - <0> = -1
+	0 * <0> = 0<0>
+	0 / <0> = <0>1
+
+	0 + <0> =
+	0 - <0> =
+	0 * <0> =
+	0 / <0> =
+
+	0 + < > =
+	0 - < > =
+	0 * < > =
+	0 / < > =
+	```
+	```
+	( ) + <1> =
+	( ) - <1> =
+	( ) * <1> =
+	( ) / <1> =
+
+	( ) + <0> =
+	( ) - <0> =
+	( ) * <0> =
+	( ) / <0> =
+
+	( ) + < > = < >
+	( ) - < > = -< >
+	( ) * < > = ( )< >
+	( ) / < > = < >( )
+	```
+	<br>
+
+  - Origin with Non-Origin
+	```
+	1 + ?1? = 
+	1 - ?1? = 
+	1 * ?1? = 1?1?
+	1 / ?1? = ?1?1
+
+	1 + ?0? = 
+	1 - ?0? = 
+	1 * ?0? = 
+	1 / ?0? = 
+
+	1 + ? ? = 
+	1 - ? ? = 
+	1 * ? ? = 
+	1 / ? ? = 
+	```
+	```
+	0 + ?1? = 
+	0 - ?1? = 
+	0 * ?1? = 
+	0 / ?1? = 
+
+	0 + ?0? = 
+	0 - ?0? = 
+	0 * ?0? = 
+	0 / ?0? = 
+
+	0 + ? ? = 
+	0 - ? ? = 
+	0 * ? ? = 
+	0 / ? ? = 
+	```
+	```
+	( ) + ?1? = 
+	( ) - ?1? = 
+	( ) * ?1? = 
+	( ) / ?1? = 
+
+	( ) + ?0? = 
+	( ) - ?0? = 
+	( ) * ?0? = 
+	( ) / ?0? = 
+
+	( ) + ? ? = 
+	( ) - ? ? = 
+	( ) * ? ? = 
+	( ) / ? ? = 
+	```
+	<br>
+  - Anti-Origin with Origin
+	```
+	<1> + ?1? = 
+	<1> - ?1? = 
+	<1> * ?1? = 1?1?
+	<1> / ?1? = ?1?1
+
+	<1> + ?0? = 
+	<1> - ?0? = 
+	<1> * ?0? = 
+	<1> / ?0? = 
+
+	<1> + ? ? = 
+	<1> - ? ? = 
+	<1> * ? ? = 
+	<1> / ? ? = 
+	```
+	```
+	<0> + ?1? = 
+	<0> - ?1? = 
+	<0> * ?1? = 
+	<0> / ?1? = 
+
+	<0> + ?0? = 
+	<0> - ?0? = 
+	<0> * ?0? = 
+	<0> / ?0? = 
+
+	<0> + ? ? = 
+	<0> - ? ? = 
+	<0> * ? ? = 
+	<0> / ? ? = 
+	```
+	```
+	< > + ?1? = 
+	< > - ?1? = 
+	< > * ?1? = 
+	< > / ?1? = 
+
+	< > + ?0? = 
+	< > - ?0? = 
+	< > * ?0? = 
+	< > / ?0? = 
+
+	< > + ? ? = 
+	< > - ? ? = 
+	< > * ? ? = 
+	< > / ? ? = 
+	```
+	<br>
+
+  - Anti-Origin with Anti-Origin
+  - Anti-Origin with Non-Origin
+  - Non-Origin with Origin
+  - Non-Origin with Anti-Origin
+  - Non-Origin with Non-Origin
+
 
 - These data rules are valid in binary only
 - `{n} m` = Immutable and mutable data are separate operation
@@ -81,42 +285,42 @@ This formula doesn't represent any specific programming language or technology, 
 
 - In every ticks are running forward, lifetimes need to be subtract, add, and other operation by n
 
-```txt
-#lifetimes=1111
-#lifetimes:t=10:>0101
-```
+	```txt
+	#lifetimes=1111
+	#lifetimes:t=10:>0101
+	```
 
 - In every ticks are running backward, lifetimes need to be  subtract, add, and other operation by n
 
-```txt
-#lifetimes=1111
-#lifetimes:t=10<:00011001
-```
+	```txt
+	#lifetimes=1111
+	#lifetimes:t=10<:00011001
+	```
 
 - If ticks in N-State, lifetimes can do nothing
 
-```txt
-#lifetimes=1111
-#lifetimes:t=10::0101
-```
+	```txt
+	#lifetimes=1111
+	#lifetimes:t=10::0101
+	```
 
 - If lifetimes are still 1 then it still alive
 
-```txt
-#lifetimes=1
-```
+	```txt
+	#lifetimes=1
+	```
 
 - If lifetimes are 0 then it's over
 
-```txt
-#lifetimes=0
-```
+	```txt
+	#lifetimes=0
+	```
 
 - If lifetimes are ( ) then it's infinite lifetimes
 
-```txt
-#lifetimes=( )
-```
+	```txt
+	#lifetimes=( )
+	```
 
 ### Variable Rules
 
