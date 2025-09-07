@@ -30,6 +30,7 @@ This formula doesn't represent any specific programming language or technology, 
 - `[n]` = Represent data in arrays n
 - `[n[n[...]]]` = Represent data in arrays n in arrays n in arrays ...
 - `(n)` = Represent data in groups n
+- `(n(n(...)))` = Represent data in groups n in groups n in groups ...
 <br>
 
 - [ ] Conditional and Loops Symbols
@@ -55,9 +56,23 @@ This formula doesn't represent any specific programming language or technology, 
 - `=>` = Represent to do formula from left to right
 - `<=` = Represent to do formula from right to left
 - `=:=` = Represent to do formula in the N-States
-- `=n=` = Represent to go in 
+- `=n=` = Represent to go in n formula
 - `!n` = Represent series number
 <br>
+
+- [ ] Splitting Symbols
+- `\=` = Represent for formula can splitting
+- `\=T` = Represent for formula can splitting using thread
+- `\=P` = Represent for formula can splitting using process
+- `\=!` = Represent for formula can't splitting
+- `\=T!` = Represent for formula can't splitting using thread
+- `\=P!` = Represent for formula can't splitting using process
+- `\:` = Represent for tick can splitting
+- `\T:` = Represent for tick can splitting using thread
+- `\P:` = Represent for tick can splitting using process
+- `\:!` = Represent for tick can't splitting
+- `\:T!` = Represent for tick can't splitting using thread
+- `\:P!` = Represent for tick can't splitting using process
 
 - [ ] Tick Symbols
 - `t=` = Represent ticks speed
