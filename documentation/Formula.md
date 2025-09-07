@@ -237,10 +237,112 @@ This formula doesn't represent any specific programming language or technology, 
 	<br>
   - Anti-Origin with Origin
 	```
+	<1> + 1 = 
+	<1> - 1 = 
+	<1> * 1 = 
+	<1> / 1 = 
+
+	<1> + 0 = 
+	<1> - 0 = 
+	<1> * 0 = 
+	<1> / 0 = 
+
+	<1> +   = 
+	<1> -   = 
+	<1> *   = 
+	<1> /   = 
+	```
+	```
+	<0> + 1 = 
+	<0> - 1 = 
+	<0> * 1 = 
+	<0> / 1 = 
+
+	<0> + 0 = 
+	<0> - 0 = 
+	<0> * 0 = 
+	<0> / 0 = 
+
+	<0> +   = 
+	<0> -   = 
+	<0> *   = 
+	<0> /   = 
+	```
+	```
+	< > + 1 = 
+	< > - 1 = 
+	< > * 1 = 
+	< > / 1 = 
+
+	< > + 0 = 
+	< > - 0 = 
+	< > * 0 = 
+	< > / 0 = 
+
+	< > +   = 
+	< > -   = 
+	< > *   = 
+	< > /   = 
+	```
+	<br>
+
+  - Anti-Origin with Anti-Origin
+	```
+	<1> + <1> = 
+	<1> - <1> = 
+	<1> * <1> = 
+	<1> / <1> = 
+
+	<1> + <0> = 
+	<1> - <0> = 
+	<1> * <0> = 
+	<1> / <0> = 
+
+	<1> + < > = 
+	<1> - < > = 
+	<1> * < > = 
+	<1> / < > = 
+	```
+	```
+	<0> + <1> = 
+	<0> - <1> = 
+	<0> * <1> = 
+	<0> / <1> = 
+
+	<0> + <0> = 
+	<0> - <0> = 
+	<0> * <0> = 
+	<0> / <0> = 
+
+	<0> + < > = 
+	<0> - < > = 
+	<0> * < > = 
+	<0> / < > = 
+	```
+	```
+	< > + <1> = 
+	< > - <1> = 
+	< > * <1> = 
+	< > / <1> = 
+
+	< > + <0> = 
+	< > - <0> = 
+	< > * <0> = 
+	< > / <0> = 
+
+	< > + < > = 
+	< > - < > = 
+	< > * < > = 
+	< > / < > = 
+	```
+	<br>
+
+  - Anti-Origin with Non-Origin
+	```
 	<1> + ?1? = 
 	<1> - ?1? = 
-	<1> * ?1? = 1?1?
-	<1> / ?1? = ?1?1
+	<1> * ?1? = 
+	<1> / ?1? = 
 
 	<1> + ?0? = 
 	<1> - ?0? = 
@@ -286,12 +388,158 @@ This formula doesn't represent any specific programming language or technology, 
 	```
 	<br>
 
-  - Anti-Origin with Anti-Origin
-  - Anti-Origin with Non-Origin
   - Non-Origin with Origin
-  - Non-Origin with Anti-Origin
-  - Non-Origin with Non-Origin
+	```
+	?1? + 1 = 
+	?1? - 1 = 
+	?1? * 1 = 
+	?1? / 1 = 
 
+	?1? + 0 = 
+	?1? - 0 = 
+	?1? * 0 = 
+	?1? / 0 = 
+
+	?1? +   = 
+	?1? -   = 
+	?1? *   = 
+	?1? /   = 
+	```
+	```
+	?0? + 1 = 
+	?0? - 1 = 
+	?0? * 1 = 
+	?0? / 1 = 
+
+	?0? + 0 = 
+	?0? - 0 = 
+	?0? * 0 = 
+	?0? / 0 = 
+
+	?0? +   = 
+	?0? -   = 
+	?0? *   = 
+	?0? /   = 
+	```
+	```
+	? ? + 1 = 
+	? ? - 1 = 
+	? ? * 1 = 
+	? ? / 1 = 
+
+	? ? + 0 = 
+	? ? - 0 = 
+	? ? * 0 = 
+	? ? / 0 = 
+
+	? ? +   = 
+	? ? -   = 
+	? ? *   = 
+	? ? /   = 
+	```
+	<br>
+
+  - Non-Origin with Anti-Origin
+	```
+	?1? + <1> = 
+	?1? - <1> = 
+	?1? * <1> = 
+	?1? / <1> = 
+
+	?1? + <0> = 
+	?1? - <0> = 
+	?1? * <0> = 
+	?1? / <0> = 
+
+	?1? + < > = 
+	?1? - < > = 
+	?1? * < > = 
+	?1? / < > = 
+	```
+	```
+	?0? + <1> = 
+	?0? - <1> = 
+	?0? * <1> = 
+	?0? / <1> = 
+
+	?0? + <0> = 
+	?0? - <0> = 
+	?0? * <0> = 
+	?0? / <0> = 
+
+	?0? + < > = 
+	?0? - < > = 
+	?0? * < > = 
+	?0? / < > = 
+	```
+	```
+	? ? + <1> = 
+	? ? - <1> = 
+	? ? * <1> = 
+	? ? / <1> = 
+
+	? ? + <0> = 
+	? ? - <0> = 
+	? ? * <0> = 
+	? ? / <0> = 
+
+	? ? + < > = 
+	? ? - < > = 
+	? ? * < > = 
+	? ? / < > = 
+	```
+	<br>
+
+  - Non-Origin with Non-Origin
+	```
+	?1? + ?1? = 
+	?1? - ?1? = 
+	?1? * ?1? = 
+	?1? / ?1? = 
+
+	?1? + ?0? = 
+	?1? - ?0? = 
+	?1? * ?0? = 
+	?1? / ?0? = 
+
+	?1? + ? ? = 
+	?1? - ? ? = 
+	?1? * ? ? = 
+	?1? / ? ? = 
+	```
+	```
+	?1? + ?1? = 
+	?1? - ?1? = 
+	?1? * ?1? = 
+	?1? / ?1? = 
+
+	?1? + ?0? = 
+	?1? - ?0? = 
+	?1? * ?0? = 
+	?1? / ?0? = 
+
+	?1? + ? ? = 
+	?1? - ? ? = 
+	?1? * ? ? = 
+	?1? / ? ? = 
+	```
+	```
+	?1? + ?1? = 
+	?1? - ?1? = 
+	?1? * ?1? = 
+	?1? / ?1? = 
+
+	?1? + ?0? = 
+	?1? - ?0? = 
+	?1? * ?0? = 
+	?1? / ?0? = 
+
+	?1? + ? ? = 
+	?1? - ? ? = 
+	?1? * ? ? = 
+	?1? / ? ? = 
+	```
+	<br>
 
 - These data rules are valid in binary only
 - `{n} m` = Immutable and mutable data are separate operation
@@ -301,40 +549,40 @@ This formula doesn't represent any specific programming language or technology, 
 - In every ticks are running forward, lifetimes need to be subtract, add, and other operation by n
 
 	```txt
-	#lifetimes=1111
-	#lifetimes:t=10:>0101
+	#lifetimes=;
+	#lifetimes;t=10:>0101;
 	```
 
 - In every ticks are running backward, lifetimes need to be  subtract, add, and other operation by n
 
 	```txt
-	#lifetimes=1111
-	#lifetimes:t=10<:00011001
+	#lifetimes=1111;
+	#lifetimes;t=10<:00011001;
 	```
 
 - If ticks in N-State, lifetimes can do nothing
 
 	```txt
-	#lifetimes=1111
-	#lifetimes:t=10::0101
+	#lifetimes=1111;
+	#lifetimes;t=10::0101;
 	```
 
 - If lifetimes are still 1 then it still alive
 
 	```txt
-	#lifetimes=1
+	#lifetimes=1;
 	```
 
 - If lifetimes are 0 then it's over
 
 	```txt
-	#lifetimes=0
+	#lifetimes=0;
 	```
 
-- If lifetimes are ( ) then it's infinite lifetimes
+- If lifetimes are ` ` then it's infinite lifetimes
 
 	```txt
-	#lifetimes=( )
+	#lifetimes= ;
 	```
 
 ### Variable Rules

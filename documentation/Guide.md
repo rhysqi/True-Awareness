@@ -4,6 +4,12 @@ Starting point for True Awareness Formula. In this section, it will be discussin
 - Writing True Awareness Formula
 - True Awareness Formula File Format
 
+## Understanding the Basic
+
+
+## Writing Formula
+
+
 ## File Format Description
 - True Awareness Format (.taf) 
 - True Awareness Formula Format (.taff)
