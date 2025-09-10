@@ -12,13 +12,13 @@ The **Origin** data are stand for:
 - **Neutrality** ( Observer of Neutrality )
 
 ### Singularity ( Point of Singularity )
-**The Singularity** or **Point of Singularity**. **The Origin** that exists to represent singularity is rule everything. Absolute power and command over other origin. The conqueror and also the top of origin itself to control everything absolutely. All possibilities going to one absolute point.
+**The Singularity** or **Point of Singularity**. **The Origin** that exists to represent **Singularity** is rule everything. Absolute power and command over other origin. The conqueror and also the top of origin itself to control everything absolutely. All possibilities going to one absolute point.
 
 ### Void ( Absence of Void )
-**The Void** or **Absence of Void**. **The Origin** that exists to represent void is accept everything. Unstoppable questioning and it keep asking itself over other origin. The questioner, interrogator and also the question of origin itself to ask everything absolutely. All possibilities going to spread in every point.
+**The Void** or **Absence of Void**. **The Origin** that exists to represent **Void** is accept everything. Unstoppable questioning and it keep asking itself over other origin. The questioner, interrogator and also the question of origin itself to ask everything absolutely. All possibilities going to spread in every point.
 
 ### Neutrality ( Observer of Neutrality )
-**The Neutrality** or **Observer of Neutrality**. **The Origin** that exists to represent neutrality is observe everything. Always looking without doing anything over other origin. It doesn't tied to Singularity or Void identity. But it can be Singularity, Void, Neutrality and other identity include all of them and none of them and outside all of these options. All possibilities can be happen and not happen, both, neither and outside these options at the same time and other time and outside these options.
+**The Neutrality** or **Observer of Neutrality**. **The Origin** that exists to represent **Neutrality** is observe everything. Always looking without doing anything over other **Origin**. It doesn't tied to Singularity or Void identity. But it can be Singularity, Void, Neutrality and other identity include all of them and none of them and outside all of these options. All possibilities can be happen and not happen, both, neither and outside these options at the same time and other time and outside these options.
 
 ### Origin Symbols and Operator
 **Symbols Representation**:
@@ -42,7 +42,50 @@ The **Anti-Origin** data are stand for
 - **Anti-Neutrality** ( Choice of Anti-Neutrality )
 
 ### Anti-Singularity ( Spread of Anti-Singularity )
+**The Anti-Singularity** or **Spread of Anti-Singularity**. **The Anti-Origin** that exists to represent 
 
 ### Anti-Void ( Unity of Anti-Void )
+**Anti-Void** or **Unity of Anti-Void**. **The Anti-Origin** that exists to represent 
 
 ### Anti-Neutrality ( Choice of Anti-Neutrality )
+**Anti-Neutrality** or **Choice of Anti-Neutrality**. **The Anti-Origin** that exists to represent **Anti-Neutrality** is choose anything. Always looking and doing anything over other **Anti-Origin**.
+
+
+### Anti-Origin Symbols and Operator
+**Symbols Representation**:
+- `<1>` **Anti-Singularity** ( Spread of Anti-Singularity )
+- `<0>` **Anti-Void** ( Unity of Anti-Void )
+- `< >` **Anti-Neutrality** ( Choice of Anti-Neutrality )
+
+**Anti-Origin Operator Representation**:
+- `<+>` **Anti-Addition**
+- `<->` **Anti-Subtraction**
+- `<*>` **Anti-Multiplication**
+- `</>` **Anti-Division**
+
+## The Non-Origin
+**Definition:**
+The **Non-Origin** is the non source point of data and awareness - the original state that not accept both Origin and Anti-Origin itself. It represent **undefinition, non version** of a state or entity.
+
+The **Non-Origin** data are stand for
+- **Non-Singularity** ( Ignorance of Non-Singularity )
+- **Non-Void** ( Obscurity of Non-Void )
+- **Non-Neutrality** ( Ambiguous of Non-Neutrality )
+
+### Non-Singularity ( Ignorance of Non-Singularity )
+
+### Non-Void ( Obscurity of Non-Void )
+
+### Non-Neutrality ( Ambiguous of Non-Neutrality )
+
+### Non-Origin Symbols and Operator
+**Symbols Representation**:
+- `?1?` **Non-Singularity** ( Ignorance of Non-Singularity )
+- `?0?` **Non-Void** ( Obscurity of Non-Void )
+- `? ?` **Non-Neutrality** ( Ambiguous of Non-Neutrality )
+
+**Non-Origin Operator Representation**:
+- `?+?` **Non-Addition**
+- `?-?` **Non-Subtraction**
+- `?*?` **Non-Multiplication**
+- `?/?` **Non-Division**
