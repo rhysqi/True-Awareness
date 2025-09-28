@@ -34,9 +34,9 @@ This formula doesn't represent any specific programming language or technology, 
 <br>
 
 - [ ] Conditional and Loops Symbols
-- `=)` = Represent if condition
-- `=)(` = Represent else if condition
-- `=(` = Represent else condition
+- `=)condition)` = Represent if condition
+- `=)condition(` = Represent else if condition
+- `=(condition(` = Represent else condition
 - `=|n` = Represent to compare with n variable or value
 - `=[]`, `=[n, m]`, `[n]` = Represent switch
 - `[n|x%]`, `[n|x,y]`, `[n|x/y]` = Represent probability of an event while on process occurs
@@ -44,21 +44,27 @@ This formula doesn't represent any specific programming language or technology, 
 - `=(n)`, `(n)=` = Represent before and after `n` iteration
 <br>
 
-- [ ] Column & Line Symbols
-- `_n` = Represent to jump directly di `n` variable
+- [ ] Column, Formula & Line Symbols
+- `_n` = Represent to jump directly to `n` line
 - `_>` = Represent to make line flow downward
 - `_<` = Represent to make line flow upward
 - `_ ` = Represent to make line flow N-State
-<br>
-
-- [ ] Specific Symbols
-- `;` = Represent separator
+- `=n=` = Represent to go in `n` formula
 - `=>` = Represent to do formula from left to right
 - `<=` = Represent to do formula from right to left
 - `=:=` = Represent to do formula in the N-States
-- `=n=` = Represent to go in n formula
-- `!n` = Represent series number
 <br>
+
+- [ ] Specific Symbols
+- `;` = Represent formula separator
+- `&` = Represent AND
+- `<&>` = Represent NAND
+- `|` = Represent OR
+- `<|>` = Represent NOR
+- `?|?` = Represent XOR
+- `?<|>?` = Represent XNOR
+- `~` = Represent data need to be inverted
+- `#?>parameter(logic` = Represent function
 
 - [ ] Splitting Symbols
 - `\=` = Represent for formula can splitting
@@ -85,7 +91,6 @@ This formula doesn't represent any specific programming language or technology, 
 - `+ - * /` = Origin arithmetic operations
 - `<+> <-> <*> </>` = Anti-Origin arithmetic operations
 - `?+? ?-? ?*? ?/?` = Non-Origin arithmetic operations
-- `~` = Represent data need to be inverted
 - `^{ }` = Represent can change immutable data
 - `^{ }^` = Represent can change immutable data and mutable data both
 - `>`, `<`, `>=`, `=<` = Represent more, less, more equal, less equal
