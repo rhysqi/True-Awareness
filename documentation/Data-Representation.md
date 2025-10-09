@@ -73,10 +73,13 @@ The **Non-Origin** data are stand for
 - **Non-Neutrality** ( Ambiguous of Non-Neutrality )
 
 ### Non-Singularity ( Ignorance of Non-Singularity )
+**Non-Singularity** or **Ignorance of Non-Singularity**. **The Non-Origin** that exist to represent **Non-Singularity** is ignore everything and anything. Maybe creating, commanding or maybe destruct or ignore other **Non-Origin**. The indifference and the top of non-origin itself to ignore everything absolutely. All possibilities be ignored in all points.
 
 ### Non-Void ( Obscurity of Non-Void )
+**Non-Void** or **Obscurity of Non-Void**. **The Non-Origin** that exist to represent **Non-Void** is unclear everything and anything. Maybe answering and maybe questioning other **Non-Origin**. The obscurity and also the top of non-origin itself to uncertainty everything absolutely. All possibilities be obscured in all points.
 
 ### Non-Neutrality ( Ambiguous of Non-Neutrality )
+**Non-Neutrality** or **Ambiguous of Non-Neutrality**. **The Non-Origin** that exist to represent **Non-Neutrality** is ambiguous everything and anything. Maybe choosing and maybe observing other **Non-Origin**. The ambiguity and also the top of non-origin itself to ambiguous everything absolutely. All possibilities be ambiguous in all points.
 
 ### Non-Origin Symbols and Operator
 **Symbols Representation**:
